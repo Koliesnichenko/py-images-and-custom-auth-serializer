@@ -15,7 +15,7 @@ class UserAdmin(DjangoUserAdmin):
             "fields":
                 (
                     "is_active",
-                    "is_staff"
+                    "is_staff",
                     "is_superuser",
                     "groups",
                     "user_permissions"
